@@ -371,12 +371,9 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
       <div className="hidden lg:flex lg:w-1/2 items-center justify-center p-8 xl:p-12">
         <div className="max-w-lg text-center">
           <div className="w-20 h-20 xl:w-28 xl:h-28 flex items-center justify-center mx-auto mb-6 xl:mb-8">
-            <img 
-              src="https://raw.githubusercontent.com/razinrayees/razinrayees/master/2logo.png" 
-              alt="Resumin Logo" 
-              className="w-16 h-16 xl:w-24 xl:h-24 object-contain" 
-              loading="lazy"
-            />
+            <div className="w-16 h-16 xl:w-24 xl:h-24 bg-gradient-to-br from-orange-500 to-pink-500 rounded-2xl flex items-center justify-center">
+              <span className="text-2xl xl:text-4xl font-bold text-white">R</span>
+            </div>
           </div>
           <h1 className="text-3xl xl:text-4xl font-bold text-gray-900 mb-4 xl:mb-6">
             {isLogin ? 'Welcome Back to Resumin' : 'Join Resumin'}
@@ -431,7 +428,7 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
                   <span className="font-semibold text-xs">Early Access</span>
                 </div>
                 <p className="text-green-700 text-xs">
-                  Use code <code className="bg-green-200 px-1 rounded font-bold">EARLY100</code>
+                  Use code <code className="bg-green-200 px-1 rounded font-bold">DEMO123</code> to try the demo.
                 </p>
               </div>
             )}
@@ -468,7 +465,7 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
                     </div>
                   </div>
                   <p className="text-xs text-gray-500 mt-1">
-                    Try <code className="bg-gray-100 px-1 rounded font-bold">EARLY100</code> or email <a href="mailto:razin@resumin.link" className="text-orange-600 hover:text-orange-700">razin@resumin.link</a>
+                    Try <code className="bg-gray-100 px-1 rounded font-bold">EARLY100</code> or email <a href="mailto:contact@example.com" className="text-orange-600 hover:text-orange-700">contact@example.com</a>
                   </p>
                 </div>
               )}
@@ -502,7 +499,7 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
                   />
                   <button
                     type="button"
-                    onClick={() => setShowPassword(!showPassword)}
+                    href="mailto:contact@example.com" 
                     className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
                   >
                     {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
@@ -541,7 +538,6 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
                 <div className="absolute inset-0 flex items-center">
                   <div className="w-full border-t border-gray-200" />
                 </div>
-                <div className="relative flex justify-center text-sm">
                   <span className="px-4 bg-white text-gray-500">Or continue with</span>
                 </div>
               </div>
