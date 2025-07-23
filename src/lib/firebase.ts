@@ -3,13 +3,15 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getFunctions } from 'firebase/functions';
 
+// Sample Firebase configuration
+// Replace with your own Firebase project configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBZNouuZC8MlX_6auSgsTXpao0z0_INnaY",
-  authDomain: "resumin.link", // Changed from resume-bc7b1.firebaseapp.com
-  projectId: "resume-bc7b1",
-  storageBucket: "resume-bc7b1.firebasestorage.app",
-  messagingSenderId: "361866536718",
-  appId: "1:361866536718:web:1af5d1ce0448d4c2a8995f"
+  apiKey: "your-api-key-here",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:abcdef123456"
 };
 
 const app = initializeApp(firebaseConfig);

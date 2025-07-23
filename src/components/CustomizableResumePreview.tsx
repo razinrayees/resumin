@@ -807,21 +807,7 @@ export const CustomizableResumePreview: React.FC<CustomizableResumePreviewProps>
       <div className="text-center mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-200">
         <div className="flex justify-center items-center gap-2">
           <p className="text-gray-500 text-sm">Made with</p>
-          <a 
-            href="https://resumin.link" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="-mt-1 inline-block"
-          >
-            <div className="w-16 h-16 sm:w-20 sm:h-20">
-              <img 
-                src="https://raw.githubusercontent.com/razinrayees/razinrayees/master/1logo.png" 
-                alt="Resumin Logo" 
-                className="w-full h-full object-contain" 
-                loading="lazy"
-              />
-            </div>
-          </a>
+          <span className="text-orange-600 font-semibold">Resumin</span>
         </div>
       </div>
     </div>

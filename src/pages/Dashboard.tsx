@@ -231,14 +231,12 @@ export const Dashboard: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2 sm:space-x-4">
-               <div className="w-24 h-24 sm:w-28 sm:h-28 flex items-center justify-center">
-    <img 
-      src="https://raw.githubusercontent.com/razinrayees/razinrayees/master/1logo.png" 
-      alt="Resumin Logo" 
-      className="w-20 h-20 sm:w-24 sm:h-24 object-contain" 
-      loading="lazy"
-    />
-  </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-8 bg-gradient-to-br from-orange-500 to-pink-500 rounded-lg flex items-center justify-center">
+                  <span className="text-sm font-bold text-white">R</span>
+                </div>
+                <span className="text-xl font-bold text-gray-900">Resumin</span>
+              </div>
             </div>
 
             <div className="flex items-center space-x-4">

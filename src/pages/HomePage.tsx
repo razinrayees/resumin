@@ -41,11 +41,11 @@ export const HomePage: React.FC = () => {
               <div className="text-right">
                 <p className="text-sm text-green-100">Need an invite code?</p>
                 <a 
-                  href="mailto:razin@resumin.link" 
+                  href="mailto:contact@example.com" 
                   className="flex items-center space-x-2 text-white hover:text-green-100 font-medium transition-colors"
                 >
                   <Mail size={16} />
-                  <span>razin@resumin.link</span>
+                  <span>contact@example.com</span>
                 </a>
               </div>
             </div>
@@ -66,11 +66,11 @@ export const HomePage: React.FC = () => {
             <div>
               <p className="text-sm text-green-100 mb-1">Need an invite code?</p>
               <a 
-                href="mailto:razin@resumin.link" 
+                href="mailto:contact@example.com" 
                 className="inline-flex items-center space-x-2 text-white hover:text-green-100 font-medium transition-colors"
               >
                 <Mail size={16} />
-                <span>razin@resumin.link</span>
+                <span>contact@example.com</span>
               </a>
             </div>
           </div>
@@ -112,11 +112,11 @@ export const HomePage: React.FC = () => {
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-2 sm:space-y-0 sm:space-x-4 text-sm">
                   <span className="text-green-700">Need a different code?</span>
                   <a 
-                    href="mailto:razin@resumin.link" 
+                    href="mailto:contact@example.com" 
                     className="flex items-center space-x-2 text-green-600 hover:text-green-700 font-medium transition-colors"
                   >
                     <Mail size={16} />
-                    <span>razin@resumin.link</span>
+                    <span>contact@example.com</span>
                   </a>
                 </div>
               </div>

@@ -88,17 +88,17 @@ export const AboutPage: React.FC = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8">
             <div className="text-center mb-8">
               <div className="w-24 h-24 bg-gradient-to-br from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-2xl font-bold text-white">R</span>
+                <span className="text-2xl font-bold text-white">T</span>
               </div>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet the Creator</h2>
-              <h3 className="text-xl text-orange-600 font-semibold mb-4">Razin</h3>
+              <h3 className="text-xl text-orange-600 font-semibold mb-4">The Team</h3>
             </div>
             
             <div className="prose prose-lg mx-auto text-center">
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Hi! I'm Razin, a developer who believes in building tools that make people's lives easier. 
+                Hi! I'm Razin Rayees, a developer who believes in building tools that make people's lives easier. 
                 I created Resumin because I was tired of sending outdated PDF resumes and wanted a better way 
-                to share my professional story.
+                to share professional stories.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
                 What started as a personal project has grown into a platform that helps thousands of 
@@ -112,11 +112,11 @@ export const AboutPage: React.FC = () => {
                 <Mail size={20} />
                 <span>Email</span>
               </a>
-              <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors">
+              <a href="https://github.com/razinrayees" className="flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors">
                 <Github size={20} />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors">
+              <a href="https://twitter.com/razinrayees" className="flex items-center space-x-2 text-gray-600 hover:text-orange-600 transition-colors">
                 <Twitter size={20} />
                 <span>Twitter</span>
               </a>

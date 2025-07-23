@@ -147,7 +147,7 @@ export const DonatePage: React.FC = () => {
               "Building tools that help people showcase their potential is my passion. 
               Your support allows me to keep doing what I love while keeping Resumin accessible to all."
             </p>
-            <p className="mt-4 text-orange-100">— Razin, Creator of Resumin</p>
+            <p className="mt-4 text-orange-100">— Razin Rayees</p>
           </div>
         </div>
       </section>

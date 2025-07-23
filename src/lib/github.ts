@@ -1,7 +1,10 @@
+// Sample GitHub configuration for profile picture uploads
+// You'll need to set up your own GitHub repository and personal access token
+
 const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 const GITHUB_OWNER = 'razinrayees';
-const GITHUB_REPO = 'zeba';
-const GITHUB_PATH = 'css';
+const GITHUB_REPO = 'resumin-assets';
+const GITHUB_PATH = 'images';
 
 export interface GitHubUploadResponse {
   success: boolean;

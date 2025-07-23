@@ -264,7 +264,7 @@ export const TermsPage: React.FC = () => {
             </p>
             <div className="bg-gray-50 rounded-lg p-4">
               <p className="text-gray-700 mb-2">
-                <strong>Email:</strong> <a href="mailto:admin@resumin.link" className="text-orange-600 hover:text-orange-800">admin@resumin.link</a>
+                <strong>Email:</strong> <a href="mailto:legal@example.com" className="text-orange-600 hover:text-orange-800">legal@example.com</a>
               </p>
               <p className="text-gray-700 mb-0">
                 <strong>Response time:</strong> We typically respond within 24-48 hours

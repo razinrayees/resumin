@@ -154,14 +154,14 @@ export function FooterSection() {
 
 							<div className="text-center md:text-right">
 								<p className="text-gray-500 text-sm mb-2">
-									Need an invite code?
+									Questions or feedback?
 								</p>
 								<a
-									href="mailto:razin@resumin.link"
+									href="mailto:contact@example.com"
 									className="inline-flex items-center space-x-2 text-orange-600 hover:text-orange-700 transition-colors text-sm font-medium"
 								>
 									<Mail size={14} />
-									<span>razin@resumin.link</span>
+									<span>contact@example.com</span>
 								</a>
 							</div>
 						</div>

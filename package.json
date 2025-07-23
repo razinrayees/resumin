@@ -1,13 +1,26 @@
 {
-  "name": "resme",
+  "name": "resumin",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "A modern, responsive resume builder that creates beautiful, shareable resume pages",
+  "keywords": ["resume", "portfolio", "react", "typescript", "tailwind"],
+  "author": "Razin Rayees",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/razinrayees/resumin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/razinrayees/resumin/issues"
+  },
+  "homepage": "https://github.com/razinrayees/resumin#readme",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
