@@ -4,7 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "description": "A modern, responsive resume builder that creates beautiful, shareable resume pages",
-  "keywords": ["resume", "portfolio", "react", "typescript", "tailwind"],
+  "keywords": [
+    "resume",
+    "portfolio",
+    "react",
+    "typescript",
+    "tailwind"
+  ],
   "author": "Razin Rayees",
   "license": "MIT",
   "repository": {
