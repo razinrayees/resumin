@@ -247,6 +247,7 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
   // Forgot Password Form
   if (showForgotPassword) {
     return (
+      <>
       <div className="min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50 flex flex-col lg:flex-row">
         <div className="absolute top-4 left-4 z-10">
           <Link
@@ -351,6 +352,7 @@ export const Login: React.FC<LoginProps> = ({ isSignupMode = false }) => {
           </div>
         </div>
       </div>
+      </>
     );
   }
 
